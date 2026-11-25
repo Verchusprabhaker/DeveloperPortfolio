@@ -1,0 +1,14 @@
+==============================================
+Name: Verchus Prabhaker | Roll No: 2601730064 | Date: Wed Nov 25 20:00:45 IST 2026
+==============================================
+CPU Model: Apple A18 Pro
+CPU Cores: 6
+--- Memory ---
+Total Memory: 8.0 GB
+Used Memory: 7516M
+--- Top 3 Processes by CPU ---
+/usr/libexec/spotlightknowledged.updater (CPU: 4.9%)
+/System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer (CPU: 4.0%)
+/System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal (CPU: 2.8%)
+==============================================
+Report generated successfully.
