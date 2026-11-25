@@ -1,0 +1,84 @@
+=== ls -la ~ ===
+total 264
+drwxr-x---+ 31 verchusprabhaker  staff    992 25 Nov 19:36 .
+drwxr-xr-x   5 root              admin    160 30 Aug 11:46 ..
+-rw-------   1 verchusprabhaker  staff     71 23 Oct 10:45 .bash_history
+-r--------   1 verchusprabhaker  staff      7  1 Jun 21:52 .CFUserTextEncoding
+drwx------@  7 verchusprabhaker  staff    224  6 Oct 09:13 .copilot
+-rw-r--r--@  1 verchusprabhaker  staff  18436 22 Nov 13:09 .DS_Store
+-rw-r--r--   1 verchusprabhaker  staff     91 26 Oct 21:14 .gitconfig
+drwxr-xr-x   3 verchusprabhaker  staff     96  4 Jun 22:46 .idlerc
+-rw-------   1 verchusprabhaker  staff     20 13 Nov 12:59 .lesshst
+-rw-r--r--@  1 verchusprabhaker  staff     11 13 Nov 16:30 .python_history
+drwx------+  2 verchusprabhaker  staff     64 23 Nov 22:38 .Trash
+drwxr-xr-x@  6 verchusprabhaker  staff    192  6 Oct 09:41 .vscode
+drwxr-xr-x@  3 verchusprabhaker  staff     96  3 Jun 15:20 .vscode-shared
+-rw-r--r--   1 verchusprabhaker  staff    166  3 Jun 15:12 .zprofile
+-rw-------@  1 verchusprabhaker  staff  81426 23 Nov 22:37 .zsh_history
+drwx------  18 verchusprabhaker  staff    576 25 Nov 19:36 .zsh_sessions
+drwx------@  7 verchusprabhaker  staff    224 18 Jun 21:43 Applications
+drwxr-xr-x   4 verchusprabhaker  staff    128 26 Oct 21:03 cse103_lab
+drwx------@  7 verchusprabhaker  staff    224 25 Nov 19:42 Desktop
+drwxr-xr-x   4 verchusprabhaker  staff    128 23 Nov 21:28 developer-portfolio
+drwxr-xr-x  10 verchusprabhaker  staff    320 25 Nov 19:36 DeveloperPortfolio
+drwx------@  8 verchusprabhaker  staff    256 13 Nov 17:19 Documents
+drwx------@ 77 verchusprabhaker  staff   2464 23 Nov 22:32 Downloads
+drwx------@ 94 verchusprabhaker  staff   3008 21 Jun 12:33 Library
+-rw-r--r--   1 verchusprabhaker  staff     76 13 Nov 12:03 main.py
+drwx------@  4 verchusprabhaker  staff    128 20 Jul 15:11 Movies
+drwx------+  4 verchusprabhaker  staff    128  1 Jun 22:25 Music
+drwx------+  5 verchusprabhaker  staff    160  2 Jun 17:45 Pictures
+drwxr-xr-x@  3 verchusprabhaker  staff     96 13 Nov 11:32 Postman
+drwxr-xr-x+  4 verchusprabhaker  staff    128  1 Jun 21:51 Public
+-rw-r--r--   1 verchusprabhaker  staff    113 19 Oct 21:42 students.txt
+
+=== ps aux | head -10 ===
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+_windowserver      402   6.4  1.0 436282064  87248   ??  Ss   10:15AM  12:35.72 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+verchusprabhaker  1201   4.1  6.1 1957355664 508640   ??  S    10:17AM   2:27.88 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/158.0.8127.37/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer) --type=renderer --lang=en-GB --num-raster-threads=3 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=35 --launch-time-ticks=216768302 --shared-files --metrics-shmem-handle=1752395122,r,2334624414492196292,16160608246729795756,1572864 --field-trial-handle=1718379636,r,6823711513177822752,12897637038761309994,262144 --variations-seed-version=20261123-111201.931000-production --pseudonymization-salt-handle=1935764596,r,9947940704046992173,7182767248328426184,4 --trace-process-track-uuid=3190709019108336209 --seatbelt-client=184
+verchusprabhaker  2343   3.0  1.1 435869680  92400   ??  R     7:36PM   0:09.07 /System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
+verchusprabhaker   730   2.4  0.1 435372352  12064   ??  S    10:15AM   0:44.59 /usr/libexec/spotlightknowledged.updater -u
+root               369   1.8  0.2 435392992  19328   ??  Ss   10:15AM   0:00.78 /usr/libexec/xprotectd
+verchusprabhaker   810   1.4  1.2 486684848 101600   ??  S    10:15AM   2:27.99 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/158.0.8127.37/Helpers/Google Chrome Helper (Aperitif).app/Contents/MacOS/Google Chrome Helper (Aperitif) --type=gpu-process --gpu-recent-crash-count=0 --gpu-preferences=WAAAAAAAAACgAACBAAAAAAAAAAAAAGAAQAAAAAAAAAADAAAAAAAAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAoAAAAAAAAAAgAAAAAAAAADAAAAAEAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files --metrics-shmem-handle=1752395122,r,2640126435364206057,17430396725073618386,262144 --field-trial-handle=1718379636,r,6823711513177822752,12897637038761309994,262144 --variations-seed-version=20261123-111201.931000-production --pseudonymization-salt-handle=1935764596,r,9947940704046992173,7182767248328426184,4 --trace-process-track-uuid=3190708988185955192 --seatbelt-client=28
+_driverkit         527   1.2  0.7 435331856  57552   ??  Ss   10:15AM   2:28.21 /System/Library/DriverExtensions/com.apple.AppleSunriseWLAN.dext/com.apple.AppleSunriseWLAN com.apple.AppleSunriseWLAN 0x100000a67 com.apple.AppleSunriseWLAN
+verchusprabhaker   640   1.2  2.9 537373840 241280   ??  S    10:15AM   2:42.70 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+verchusprabhaker   811   1.2  0.8 486136176  69488   ??  S    10:15AM   0:44.31 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/158.0.8127.37/Helpers/Google Chrome Helper (Aperitif).app/Contents/MacOS/Google Chrome Helper (Aperitif) --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-GB --service-sandbox-type=network --shared-files --metrics-shmem-handle=1752395122,r,1865221503381702820,12552199467077470389,524288 --field-trial-handle=1718379636,r,6823711513177822752,12897637038761309994,262144 --variations-seed-version=20261123-111201.931000-production --pseudonymization-salt-handle=1935764596,r,9947940704046992173,7182767248328426184,4 --trace-process-track-uuid=3190708989122997041 --seatbelt-client=18
+
+=== df -h ===
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   460Gi    15Gi   338Gi     5%    459k  3.5G    0%   /
+devfs            204Ki   204Ki     0Bi   100%     704     0  100%   /dev
+/dev/disk3s6     460Gi   1.0Gi   338Gi     1%       1  3.5G    0%   /System/Volumes/VM
+/dev/disk3s2     460Gi    16Gi   338Gi     5%    1.7k  3.5G    0%   /System/Volumes/Preboot
+/dev/disk3s4     460Gi   1.0Gi   338Gi     1%     490  3.5G    0%   /System/Volumes/Update
+/dev/disk1s2     550Mi   6.0Mi   527Mi     2%       1  5.4M    0%   /System/Volumes/xarts
+/dev/disk1s1     550Mi   6.1Mi   527Mi     2%      43  5.4M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3     550Mi   6.3Mi   527Mi     2%     914  5.4M    0%   /System/Volumes/Hardware
+/dev/disk3s5     460Gi    86Gi   338Gi    21%    577k  3.5G    0%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+/dev/disk3s1     460Gi    15Gi   338Gi     5%    459k  3.5G    0%   /System/Volumes/Update/mnt1
+
+=== free -h equivalent on macOS: vm_stat ===
+Mach Virtual Memory Statistics: (page size of 16384 bytes)
+Pages free:                                    12295.
+Pages active:                                 122901.
+Pages inactive:                               120492.
+Pages speculative:                              1730.
+Pages throttled:                                   0.
+Pages wired down:                             107789.
+Pages purgeable:                                4958.
+"Translation faults":                       21516883.
+Pages copy-on-write:                          342817.
+Pages zero filled:                          16380487.
+Pages reactivated:                           5363674.
+Pages purged:                                 610628.
+File-backed pages:                             90498.
+Anonymous pages:                              154625.
+Pages stored in compressor:                   352627.
+Pages occupied by compressor:                 129127.
+Decompressions:                              3364449.
+Compressions:                                4414641.
+Pageins:                                     2379846.
+Pageouts:                                      31191.
+Swapins:                                        9523.
+Swapouts:                                      44620.
